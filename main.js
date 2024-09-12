@@ -4,6 +4,7 @@ photo.onmouseover = () => photo.src = "./assets/photo/photo.png"
 photo.onmouseout = () => photo.src = "./assets/photo/placeholder-photo.png";
 
 
+
 // Title
 const firstName = document.querySelectorAll(".first-name")
 firstName.forEach(name => name.onmouseover = () => name.innerText = "Mohammed")
@@ -18,13 +19,14 @@ title.forEach(title => title.onmouseover = () => title.innerText = "Full Stack D
 title.forEach(title => title.onmouseout = () => title.innerText = "Marketing Manager")
 
 
+
 // Contact
 const myPhone = document.querySelector(".my-phone")
 myPhone.onmouseover = () => myPhone.innerText = "+966 55 123 4567"
 myPhone.onmouseout = () => myPhone.innerText = "+123-456-7890"
 
 const myEmail = document.querySelector(".my-email")
-myEmail.onmouseover = () => myEmail.innerText = "mohammed.dhabaab@gmail.com"
+myEmail.onmouseover = () => myEmail.innerText = "fake.fake@gmail.com"
 myEmail.onmouseout = () => myEmail.innerText = "hello@reallygreatsite.com"
 
 const myAddress = document.querySelector(".my-address")
@@ -32,8 +34,9 @@ myAddress.onmouseover = () => myAddress.innerText = "Jeddah, Saudi Arabia"
 myAddress.onmouseout = () => myAddress.innerText = "123 Anywhere St., Any City"
 
 const myWebsite = document.querySelector(".my-website")
-myWebsite.onmouseover = () => myWebsite.innerText = "https://mohammeddhabaab.com"
+myWebsite.onmouseover = () => myWebsite.innerText = "https://fake.com"
 myWebsite.onmouseout = () => myWebsite.innerText = "www.reallygreatsite.com"
+
 
 
 // Education
@@ -66,6 +69,36 @@ const educationList22 = document.querySelector(".education-list-2-2")
 educationList22.onmouseover = () => educationList22.innerText = " AI Development"
 educationList22.onmouseout = () => educationList22.innerText = "GPA: 3.8 / 4.0"
 
+
+
+// Skills
+const skillList1 = document.querySelector(".skill-list-1");  
+skillList1.onmouseover = () => skillList1.innerText = "Software Engineering";  
+skillList1.onmouseout = () => skillList1.innerText = "Project Management";  
+
+const skillList2 = document.querySelector(".skill-list-2");  
+skillList2.onmouseover = () => skillList2.innerText = "Front End Development";  
+skillList2.onmouseout = () => skillList2.innerText = "Public Relations";  
+
+const skillList3 = document.querySelector(".skill-list-3");  
+skillList3.onmouseover = () => skillList3.innerText = "Collaboration";  
+skillList3.onmouseout = () => skillList3.innerText = "Teamwork";  
+
+const skillList4 = document.querySelector(".skill-list-4");  
+skillList4.onmouseover = () => skillList4.innerText = "Organizational Skills";  
+skillList4.onmouseout = () => skillList4.innerText = "Time Management";  
+
+const skillList5 = document.querySelector(".skill-list-5");  
+skillList5.onmouseover = () => skillList5.innerText = "Motivational Skills";  
+skillList5.onmouseout = () => skillList5.innerText = "Leadership";  
+
+const skillList6 = document.querySelector(".skill-list-6");  
+skillList6.onmouseover = () => skillList6.innerText = "Interpersonal Skills";  
+skillList6.onmouseout = () => skillList6.innerText = "Effective Communication";  
+
+const skillList7 = document.querySelector(".skill-list-7");  
+skillList7.onmouseover = () => skillList7.innerText = "Analytical Skills";  
+skillList7.onmouseout = () => skillList7.innerText = "Critical Thinking";
 
 
 // Languages
